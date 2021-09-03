@@ -74,6 +74,7 @@ header {
 
 .service-item {
   display: flex;
+  /* flex-wrap: wrap; */
   border-top: 1px solid black;
 }
 
@@ -294,5 +295,22 @@ footer {
   border: none;
   padding-bottom: 20px;
   padding-right: 0;
+}
+
+.service-item {
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.service-item__image img {
+  width: 100%;
+}
+
+.service-item__image {
+  padding: 0;
+}
+
+.service-item__message {
+  padding-left: 0;
 }
 }
